@@ -4,13 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Garage from './components/Garage';
+import Header from './components/Header';
+import FavouriteColor from './components/FavouriteColor';
+import Car1 from './components/Car1';
+import Scooter from './components/Scooter';
+import List from './components/List';
+import Timer from './components/Timer';
+import MyForm from './Forms/MyForms';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Garage/>
-  </React.StrictMode>
+  <>
+    {/* <Garage/> */}
+    {/* <Header></Header> */}
+    {/* <FavouriteColor/> */}
+    {/* <Car1/> */}
+    {/* <Scooter></Scooter> */}
+    {/* <Timer></Timer>
+    <List></List> */}
+    <MyForm></MyForm>
+    </>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
