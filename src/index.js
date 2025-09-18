@@ -11,6 +11,7 @@ import Scooter from './components/Scooter';
 import List from './components/List';
 import Timer from './components/Timer';
 import MyForm from './Forms/MyForms';
+import Calculator from './calculator/cal';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,7 +24,8 @@ root.render(
     {/* <Scooter></Scooter> */}
     {/* <Timer></Timer>
     <List></List> */}
-    <MyForm></MyForm>
+    {/* <MyForm></MyForm> */}
+    <Calculator></Calculator>
     </>
   
 );
