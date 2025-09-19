@@ -12,7 +12,7 @@ import List from './components/List';
 import Timer from './components/Timer';
 import MyForm from './Forms/MyForms';
 import Calculator from './calculator/cal';
-
+import CustomerAdd from './Customer/CustomerAdd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +25,9 @@ root.render(
     {/* <Timer></Timer>
     <List></List> */}
     {/* <MyForm></MyForm> */}
-    <Calculator></Calculator>
+    {/* <Calculator></Calculator> */}
+    <h1>React Redux Customer Example</h1>
+    <CustomerAdd></CustomerAdd>
     </>
   
 );
